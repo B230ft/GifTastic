@@ -1,1 +1,1 @@
-# GiphyAPI
+# GifTastic
