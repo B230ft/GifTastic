@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="UTF-8">
+        <title>GifTastic</title>
+
+        <!-- Added a link to Bootstrap-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+        
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+        <!-- This links to the jQuery Library -->
+        <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+        <script type="text/javascript" src="assets/javascript/main.js"></script>
+    	
+    </head>
+<body>
+
+    <div class="container">
+        <h1 id="carfavorites">Favorite Cars</h1>
+        <hr id= "line">
+        <!-- car buttons will show here -->
+        <div id="carButtons"></div>
+        <hr>
+        <div id="car-input-box">
+          <form id= "car-form">
+            <label for="car-input">Add Any Car</label>
+            <input type="text" id="car-input"><br>
+            <!-- button triggers new car to be added -->
+            <input id="add-car" type="submit" value="Submit">
+          </form>
+        </div>
+        <!-- car  will  show here-->
+        <div id="carView"></div>
+      </div>
+
+</body>
+</html>

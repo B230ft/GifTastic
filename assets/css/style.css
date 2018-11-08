@@ -1,0 +1,17 @@
+body {
+    background-color: gold;
+}
+
+#carfavorites {
+    background-color: black;
+    color: gold;
+}
+
+#line {
+    color: black;
+}
+
+.carpictures {
+    display: inline-block;
+    padding: 5px;
+}
